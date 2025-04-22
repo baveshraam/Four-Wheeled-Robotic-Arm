@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import TheorySection from './components/TheorySection';
+import Implementation from './components/Implementation';
 import RoboticToolbox from './components/RoboticToolbox';
 import Simulation from './components/Simulation';
 import Questions from './components/Questions';
@@ -17,6 +18,7 @@ function App() {
       <main>
         <Hero />
         <TheorySection />
+        <Implementation />
         <RoboticToolbox />
         <Simulation />
         <Questions />
